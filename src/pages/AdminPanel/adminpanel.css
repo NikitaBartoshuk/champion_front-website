@@ -1,0 +1,186 @@
+.admin-panel-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+    top: 150px;
+}
+
+.admin-box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 1rem 0 #444;
+    cursor: pointer;
+}
+
+.admin-box-container span {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+}
+
+.admin-box-container button {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #ffdd00;
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.schedule-table {
+    width: 800px;
+}
+
+.schedule-table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.schedule-table th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-table th {
+    background-color: #ffdd00;
+    font-weight: bold;
+    color: #333;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.schedule-buttons-container {
+
+}
+
+.schedule-buttons-container select {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #ffdd00;
+}
+
+.schedule-buttons-container option {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #ffdd00;
+}
+
+.schedule-buttons-container span {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+}
+
+.schedule-raw-schedule {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    font-size: 2em;
+    margin: 50px 0;
+}
+
+.schedule-select {
+    border: 1px solid transparent;
+}
+
+.schedule-filter-btn {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #ffdd00;
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.schedule-filter-btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.filter-user-input {
+    outline: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    margin: 20px 10px
+}
+
+.filter-user-btn {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #ffdd00;
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.filter-user-btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.admin-statistic-btn {
+    position: fixed;
+    right: 0;
+    top: 300px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: gray;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.statistic-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistic-back-btn {
+    position: fixed;
+    left: 30px;
+    top: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: gray;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}

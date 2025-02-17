@@ -1,0 +1,93 @@
+.calendar-container {
+    width: 600px;
+    height: 450px;
+    position: relative;
+    top: 150px;
+    left: 475px;
+    box-shadow: 0 0 1rem 0 #444;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.calendar-name {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+}
+
+.calendar-days {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+}
+
+.date {
+    outline: none;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #ffdd00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid transparent;
+}
+
+.date:hover {
+    background-color: #b4a548;
+}
+
+.time-label {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.submit-time-btn {
+    margin: 20px 0 0 60px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    background-color: #2a2827;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-time-btn:hover {
+    color: black;
+    background-color: #ffdd00;
+}
+
+.time-select {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+    outline: none;
+    box-shadow: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffdd00;
+    border: 1px solid transparent;
+}
+
+.time-select:hover {
+    cursor: pointer;
+    background-color: #a38f07;
+}
+
+.time-select option {
+    font-family: "Roboto Condensed", 'sans-serif';
+    font-weight: 600;
+}
+
+.time-option:hover {
+    background-color: black;
+}

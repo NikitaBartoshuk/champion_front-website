@@ -1,0 +1,80 @@
+.footer-add-container {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border-bottom: 1px solid gray;
+}
+
+.footer-add-container h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "Roboto Condensed", 'sans-serif';
+    color: #ffdd00;
+    padding-left: 55px;
+}
+
+.footer-container h3 {
+    width: 70%;
+    text-align: center;
+    font-family: 'Roboto Condensed', 'sans-serif';
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    color: #ffdd00;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0;
+}
+
+.footer-add-container span {
+    padding-left: 60px;
+}
+
+.footer-opening-hours-list {
+    padding: 0;
+}
+
+.footer-opening-hours-list li {
+    list-style-type: none;
+    color: #ffdd00;
+}
+
+.footer-contacts-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    width: 13em;
+    min-width: 5em;
+}
+
+.footer-contacts-list li {
+    list-style-type: none;
+}
+
+.footer-contacts-list ion-icon {
+    color: #ffdd00;
+}
+
+
+
+.footer-last {
+    display: flex;
+    align-items: center;
+    margin-left: 15em;
+    margin-top: 20px;
+}
+
+.footer-last span {
+    margin-left: 10px;
+}
+
+.footer-last img {
+    width: 4em;
+    height: 4em;
+}

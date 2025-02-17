@@ -1,0 +1,30 @@
+.header-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+     background-color: #ef4049;
+     font-weight: 600;
+     color: #ffffff;
+     text-align: center;
+     padding: 0.7rem 1rem;
+     letter-spacing: 1.5px;
+     font-size: 0.7em;
+     cursor: pointer;
+     border-radius: 0
+}
+
+.main-form-btn {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    background-color: #ef4049;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.7rem 6rem;
+    letter-spacing: 1.5px;
+    font-size: 0.7em;
+    cursor: pointer;
+    border-radius: 0;
+
+}
